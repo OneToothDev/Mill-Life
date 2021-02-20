@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropbtn {
+    
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+
+  }
+  
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-height: 800px;
+   
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  .HomeBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+  }
+
+  .GamesBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    position: absolute; top: 140px;
+
+  }
+
+  .RulesBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    position: absolute; top: 280px;
+  }
+
+  .Store {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    position: absolute; top: 440px;
+  }
+
+  .DiscordBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    position: absolute; top: 600px;
+  }
+
+  .title {
+      color: wheat;
+      font-size: 60px;
+      position: absolute; top: 1px; left: 800px;
+     
+  }
+
+.CircleButton {
+      border-radius: 50%;
+      background-color: wheat;
+  }

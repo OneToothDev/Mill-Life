@@ -1,0 +1,163 @@
+.SLogo {
+    position: absolute; top: 40px; left: 120px;
+}
+
+p  {
+    color: gold
+
+}
+
+.HomeBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    
+}
+  
+
+body {
+    
+    
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+
+.GamesBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    
+    
+}
+
+.RulesBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    
+}
+
+
+
+
+
+
+p {
+    font-size:15px;
+    color: white;
+}
+
+.About {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    
+}
+
+
+
+.Store {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    
+}
+
+.forums {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    
+} 
+.DiscordBtn {
+    display: block;
+    width: 110px;
+    border: none;
+    background-color: #0e5a5f;
+    color: white;                                   
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 28px;
+    
+}
+
+.CopyText {
+    color: #ffffff;                               
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.divider {
+    background-color: #0e5a5f;
+    height: 46px;
+    position: absolute; top: 145px;
+    width: 3917px;
+    
+}
+
+.supportedVersion {
+    position: absolute; top: 400px;
+    font-size: 40px;
+}
+
+.sbImg {
+    position: absolute; top: 400px; left: 700px;
+    height: 400px;
+}
+
+.sbList {
+    color: wheat;
+    position: absolute; top: 370px; left: 700px;
+}
+
+.coolbg {
+    width: 600px;
+    height: 160px;
+    position: absolute; left: 500px;
+}
+
+.Cirke
+

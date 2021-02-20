@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="DD.css">
+
+<style>
+
+</style>
+</head>
+<body>
+
+
+<div class="dropdown">
+  <img src="MenuTr.png" type="button" onclick="myFunction()" class="dropbtn">
+ 
+  <div id="myDropdown" class="dropdown-content">
+      
+
+<button class="HomeBtn"  type="button" onclick="alert('Your Already at home page!')"><strong>Home</strong></button>
+<button class="GamesBtn" type="button" onclick="location.href='GamePage.html'" >Games</button>
+<button class="RulesBtn" type="button" onclick="location.href='Rules.html'" >Rules</button>
+<br>
+<button class="Store" type="button" onclick="location.href='https://storeskynovas.tebex.io/'" >Store</button>
+<button class="DiscordBtn"  type="button" onclick="location.href='https://discord.gg/uw5a9hRxSP'" >Discord</button>
+
+<button class="CircleButton">Hello this is a button!</button>
+<!--<button class="forums" style="position:absolute; TOP:160px; right:140px " type="button" onclick="location.href='forums.html'" >Forums</button> -->
+
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+    <p class="title">SkyNovas!</p>
+
+</body>
+</html>
